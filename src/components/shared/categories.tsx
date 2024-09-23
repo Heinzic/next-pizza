@@ -1,15 +1,15 @@
 import { cn } from "@/lib/utils";
 
 interface Props {
-    classname?:string
+    className?:string
 }
 
 const cats = ['Пиццы', 'Комбо', 'Закуски', 'Коктейли', 'Кофе', 'Напитки', 'Десерты', 'Десерты'];
 const activeIndex = 0;
  
-export const Categories: React.FC<Props> = ({classname}) => {
+export const Categories: React.FC<Props> = ({className}) => {
     return ( 
-        <div className={cn('inline-flex gap-1 bg-gray-50 p-1 rounded-2xl', classname)}>
+        <div className={cn('inline-flex gap-1 bg-gray-50 p-1 rounded-2xl', className)}>
             {
                 cats.map((cat, index) => (
                     <a key={index} 
