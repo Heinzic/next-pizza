@@ -1,4 +1,6 @@
-export { Header } from '@/components/shared/header';
-export { Container } from '@/components/shared/container';
-export { Title } from '@/components/shared/title';
-
+export { Header } from './header';
+export { Container } from './container';
+export { Title } from './title';
+export { Categories } from './categories';
+export { SortPopup } from './sort-popup';
+export { TopBar } from './top-bar';
