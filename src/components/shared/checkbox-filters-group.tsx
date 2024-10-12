@@ -34,7 +34,9 @@ export const CheckboxFiltersGroup: React.FC<Props> = ({
         setSearchValue(e.target.value)
     }
     
-    const list = showAll? items.filter((item) => item.text.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase())): defaultItems.slice(0, limit)
+    const list = showAll? 
+        items.filter((item) => item.text.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase())): 
+        defaultItems.slice(0, limit)
 
     return ( 
         <div className={className}>
