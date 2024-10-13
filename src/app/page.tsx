@@ -23,62 +23,62 @@ export default function Home() {
                   items: [{price: 579}]
                 },
                 {
-                  id:1,
+                  id:2,
                   name:'Аррива!',
                   imageUrl:'https://media.dodostatic.net/image/r:292x292/11EE7D6134BC4150BDD8E792D866AB52.avif',
                   items: [{price: 579}]
                 },
                 {
-                  id:1,
+                  id:3,
                   name:'Аррива!',
                   imageUrl:'https://media.dodostatic.net/image/r:292x292/11EE7D6134BC4150BDD8E792D866AB52.avif',
                   items: [{price: 579}]
                 },
                 {
-                  id:1,
+                  id:4,
                   name:'Аррива!',
                   imageUrl:'https://media.dodostatic.net/image/r:292x292/11EE7D6134BC4150BDD8E792D866AB52.avif',
                   items: [{price: 579}]
                 },
                 {
-                  id:1,
+                  id:5,
                   name:'Аррива!',
                   imageUrl:'https://media.dodostatic.net/image/r:292x292/11EE7D6134BC4150BDD8E792D866AB52.avif',
                   items: [{price: 579}]
                 }
                 ]} categotyId={1} 
               />
-              <ProductsGroupList title={"Завтрак"} items={[{
+              <ProductsGroupList title={"Закуски"} items={[{
                   id:1,
                   name:'Аррива!',
                   imageUrl:'https://media.dodostatic.net/image/r:292x292/11EE7D6134BC4150BDD8E792D866AB52.avif',
                   items: [{price: 579}]
                 },
                 {
-                  id:1,
+                  id:2,
                   name:'Аррива!',
                   imageUrl:'https://media.dodostatic.net/image/r:292x292/11EE7D6134BC4150BDD8E792D866AB52.avif',
                   items: [{price: 579}]
                 },
                 {
-                  id:1,
+                  id:3,
                   name:'Аррива!',
                   imageUrl:'https://media.dodostatic.net/image/r:292x292/11EE7D6134BC4150BDD8E792D866AB52.avif',
                   items: [{price: 579}]
                 },
                 {
-                  id:1,
+                  id:4,
                   name:'Аррива!',
                   imageUrl:'https://media.dodostatic.net/image/r:292x292/11EE7D6134BC4150BDD8E792D866AB52.avif',
                   items: [{price: 579}]
                 },
                 {
-                  id:1,
+                  id:5,
                   name:'Аррива!',
                   imageUrl:'https://media.dodostatic.net/image/r:292x292/11EE7D6134BC4150BDD8E792D866AB52.avif',
                   items: [{price: 579}]
                 }
-                ]} categotyId={1} 
+                ]} categotyId={2} 
               />
             </div>
           </div>
